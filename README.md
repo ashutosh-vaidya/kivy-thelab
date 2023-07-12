@@ -1,5 +1,7 @@
 # Introduction to kivy - [Official Doc](https://kivy.org/doc/stable/)
 
+Course developed by Jonathan Roux : [Youtube Reference](https://www.youtube.com/watch?v=l8Imtec4ReQ&ab_channel=freeCodeCamp.org)
+
 To install kivy use:
 > pip install kivy
 
