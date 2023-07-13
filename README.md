@@ -1,8 +1,6 @@
-# Introduction to kivy - [Official Doc](https://kivy.org/doc/stable/)
+# Introduction to Kivy
 
-Course developed by Jonathan Roux : [Youtube Reference](https://www.youtube.com/watch?v=l8Imtec4ReQ&ab_channel=freeCodeCamp.org)
-
-To install kivy use:
+To install Kivy use:
 > pip install kivy
 
 ---
@@ -28,7 +26,7 @@ Properties implements Observer Pattern.
 2. AnchorLayout: Widgets can be anchored to the `top`, `bottom`, `left`, `right` or `centre`.
 3. GridLayout: Widgets are arranged in a grid defined by the rows and cols properties.
 4. StackLayout: Widgets are stacked in an `lr-tb` (left to right then top to bottom) or tb-lr order.
-5. PageLayout: Used to create simple multi-page layouts, allowing easy flipping from one page to another using borders.
+5. PageLayout: Used to create simple multi-page layouts, allowing easy flipping using borders from one page to another.
 6. FloatLayout: Widgets are essentially unrestricted.
 7. RelativeLayout: Child widgets are positioned relative to the layout.
 8. ScatterLayout: Widgets are positioned similarly to a RelativeLayout but can be translated, rotated and scaled.
@@ -47,4 +45,13 @@ Properties implements Observer Pattern.
 6. TextInput
 7. Image
 8. Canvas
+
+---
+
+## Refreneces
+
+- [Official Doc](https://kivy.org/doc/stable/)
+- [Course developed by Jonathan Roux](https://www.youtube.com/watch?v=l8Imtec4ReQ&ab_channel=freeCodeCamp.org)
+- [Tabs For Kivy by John Elder](https://kivycoder.com/tabs-for-kivy-python-kivy-gui-tutorial-34/)
+
 
