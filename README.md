@@ -33,8 +33,8 @@ Properties implements Observer Pattern.
 7. RelativeLayout: Child widgets are positioned relative to the layout.
 8. ScatterLayout: Widgets are positioned similarly to a RelativeLayout but can be translated, rotated and scaled.
 
-ScrollView: It is not a layout but uses to scroll horizontally or vertically by adding a child layout. It can hold a single-child layout.
-TabbedPanel: Used to create Tab View. Useful as top navigation bar.
+> ScrollView: It is not a layout but uses to scroll horizontally or vertically by adding a child layout. It can hold a single-child layout.
+> TabbedPanel: Used to create Tab View. Useful as top navigation bar.
 
 ---
 
