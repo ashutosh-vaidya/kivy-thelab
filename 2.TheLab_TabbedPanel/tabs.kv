@@ -1,0 +1,56 @@
+<MyLayout>
+	do_default_tab: False
+
+        # ft_top, left_mid, left_bottom, top_left, 
+        # top_mid, top_right, right_top, right_mid, 
+        # right_bottom, bottom_left, bottom_mid, 
+        # bottom_right.
+
+
+    #:set s dp(200) # This will create a variable s with value 150dp
+
+	TabbedPanelItem:
+		text: "Tab 1"
+        BoxLayout:         
+            #Shapes 
+            canvas:
+                Rectangle:
+                    pos:  s/2, s/2
+                    size: s, s
+                Ellipse:
+                    pos: s*2, s
+                    size: s, s/2
+                Line:
+                    points: (0, 0, self.width/4, 100, self.width/2, 0, self.width*3/4, 100, self.width, 0)
+                    width: 2
+
+	TabbedPanelItem:
+        text: "Tab 2"
+		BoxLayout:         
+            #Lines dividing canvas in middle horizontally and vertically (+ sign)
+            canvas:
+                Line:
+                    points: (0, self.height/2, self.width, self.height/2)
+                    width: 2
+                Line:
+                    points: (self.width/2, 0, self.width/2, self.height)
+                    width: 2
+
+	TabbedPanelItem:
+        text: "Tab 3"
+        BoxLayout:         
+            #Shapes, ellipses
+            canvas:
+                Color:
+                    rgba: 1, 0, 0, .3
+                Line:
+                    circle: (200, 200, 100) # center_x, center_y, radius
+                    width: 2
+                Line:
+                    ellipse: (500, 300, 100, 200) # center_x, center_y, radius_x, radius_y
+                    width: 4
+                Color:
+                    rgba: 0, 0, 1, 1
+                Line:
+                    rectangle: (800, 100, 300, 200) # x, y, w, h
+                    width: 2
