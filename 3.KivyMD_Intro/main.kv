@@ -1,0 +1,37 @@
+Screen:
+    MDLabel:
+        text: ""
+        id: txt
+        pos_hint: {'center_x': 0.8, 'center_y': 0.6}
+    MDRaisedButton:
+        text: 'MDRaisedButtonn'
+        pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+        on_press:
+            app.action("MDRaisedButtonn")
+    MDRoundFlatButton:
+        text: 'MDRoundFlatButton'
+        pos_hint: {'center_x': 0.5, 'center_y': 0.4}
+        on_press:
+            app.action("MDRoundFlatButton")
+    MDRectangleFlatButton:
+        text: 'MDRectangleFlatButton'
+        pos_hint: {'center_x': 0.5, 'center_y': 0.3}
+        on_press:
+            app.action("MDRectangleFlatButton")
+    MDRectangleFlatIconButton:
+        text: 'MDRectangleFlatIconButton'
+        pos_hint: {'center_x': 0.5, 'center_y': 0.2}
+        width: dp(230)
+        icon: 'google'
+        on_press:
+            app.action("MDRectangleFlatIconButton")
+    MDFillRoundFlatIconButton:
+        text: 'MDFillRoundFlatIconButton'
+        pos_hint: {'center_x': 0.5, 'center_y': 0.1}
+        width: dp(230)
+        icon: 'google'
+        on_press:
+            app.action("MDFillRoundFlatIconButton")
+    MDFloatingActionButtonSpeedDial:
+        data: app.data
+        rotation_root_button: True

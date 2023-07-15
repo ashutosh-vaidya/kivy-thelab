@@ -1,6 +1,4 @@
-# Introduction to kivy - [Official Doc](https://kivy.org/doc/stable/)
-
-Course developed by Jonathan Roux : [Youtube Reference](https://www.youtube.com/watch?v=l8Imtec4ReQ&ab_channel=freeCodeCamp.org)
+# Introduction to Kivy
 
 To install kivy use:
 > pip install kivy
@@ -46,3 +44,10 @@ ScrollView : It is not a layout but use to have a scroll horizontally or vertica
 6. TextInput
 7. Image
 
+---
+
+# Resources and References
+
+- [Kivy Official Doc](https://kivy.org/doc/stable/)
+- [KivyMD Official Doc](https://kivymd.readthedocs.io/en/1.1.1/)
+- [Course by Jonathan Roux](https://www.youtube.com/watch?v=l8Imtec4ReQ&ab_channel=freeCodeCamp.org)
