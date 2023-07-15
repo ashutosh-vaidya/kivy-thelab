@@ -52,5 +52,5 @@ Properties implements Observer Pattern.
 
 - [Kivy Official Doc](https://kivy.org/doc/stable/)
 - [KivyMD Official Doc](https://kivymd.readthedocs.io/en/1.1.1/)
-- [Course by Jonathan Roux](https://www.youtube.com/watch?v=l8Imtec4ReQ&ab_channel=freeCodeCamp.org)- 
+- [Course by Jonathan Roux](https://www.youtube.com/watch?v=l8Imtec4ReQ&ab_channel=freeCodeCamp.org)
 - [Tabs For Kivy by John Elder](https://kivycoder.com/tabs-for-kivy-python-kivy-gui-tutorial-34/)
